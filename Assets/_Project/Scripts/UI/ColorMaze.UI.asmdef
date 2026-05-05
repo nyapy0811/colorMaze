@@ -1,0 +1,16 @@
+{
+    "name": "ColorMaze.UI",
+    "rootNamespace": "ColorMaze.UI",
+    "references": [
+        "GUID:fc3dc76620359d847a6c823ac5b635e4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

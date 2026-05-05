@@ -1,0 +1,18 @@
+{
+    "name": "ColorMaze.Gameplay",
+    "rootNamespace": "ColorMaze.Gameplay",
+    "references": [
+        "GUID:fc3dc76620359d847a6c823ac5b635e4",
+        "GUID:9f0fa0de2dbf18942afcd27be2d67edb",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

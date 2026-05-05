@@ -1,3 +1,5 @@
 ﻿<Solution>
-  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="ColorMaze.Gameplay.csproj" />
+  <Project Path="ColorMaze.Core.csproj" />
+  <Project Path="ColorMaze.Settings.csproj" />
 </Solution>
