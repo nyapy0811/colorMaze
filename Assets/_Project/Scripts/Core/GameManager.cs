@@ -8,7 +8,7 @@ namespace ColorMaze.Core
 
         protected override void OnAwake()
         {
-            
+            ChangeState(GameState.Playing);  // 임시: 테스트용
         }
 
         public void ChangeState(GameState next)
@@ -26,18 +26,26 @@ namespace ColorMaze.Core
             switch (s)
             {
                 case GameState.Playing:
+                    Time.timeScale = 1f;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                    break;
+
                 case GameState.Menu:
                     Time.timeScale = 1f;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
                     break;
 
                 case GameState.Paused:
                 case GameState.Cleared:
                 case GameState.GameOver:
                     Time.timeScale = 0f;
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
                     break;
 
                 case GameState.Booting:
-                    // 부팅 중에는 timeScale 손대지 않음
                     break;
             }
         }
